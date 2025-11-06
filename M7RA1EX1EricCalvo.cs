@@ -20,19 +20,21 @@ public class M7RA1EX1EricCalvo : MonoBehaviour
 {
     //Creo la string
     public string month;
+    public int hola;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         //Faig el switch
-        switch (month){
+        switch (month)
+        {
             case "January":
-            //Per cada case de l'string faig el debug.log que es demana a l'exercici.
+                //Per cada case de l'string faig el debug.log que es demana a l'exercici.
                 Debug.Log("You have chosen to be born in the month: " + month);
                 break;
             case "February":
@@ -71,7 +73,7 @@ public class M7RA1EX1EricCalvo : MonoBehaviour
             default:
                 Debug.Log("Learn to write the moths correctly and remember to write them using uppercase");
                 break;
-            //FIN
+                //FIN
         }
     }
 }
